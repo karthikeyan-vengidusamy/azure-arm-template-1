@@ -5,19 +5,19 @@
   <IsEnablePoweredBySyncfusion>true</IsEnablePoweredBySyncfusion>
   <IsShowPoweredBySyncfusion>true</IsShowPoweredBySyncfusion>
   <OrganizationName>Bold ID</OrganizationName>
-  <InstallationFolder>TenantManagement</InstallationFolder>
+  <InstallationFolder>IDP</InstallationFolder>
   <SqlConfiguration>
   </SqlConfiguration>
   <StorageType>0</StorageType>
   <WelcomeNoteText>Welcome to Bold BI Enterprise</WelcomeNoteText>
   <TimeFormat>false</TimeFormat>
-  <DRM>AHNWrDNsYm0ycjG+MoAwkDKHEvj05Isz5ti8UsucSelll7JDwsVntT50gYPOWfy5fK+CYC95eS9cYmN38rWAJNi+mHm0rMX7Af6Og4QcMc7wqf5irUOUVlszyGLyYe4OgRrdSLNMwykXn3dqUoJFQIKvL9KU2u1w+tOMEDU9viFSGzGKR2Y1Orxw9+CnLJ+M9V3HJqMJczLOPqvgSofMZZbA4qoycWwompMWogg5bhYKLCHwnB7UdUaQz9Mya4zLlJs6G7UoBncG5BCBPLA3BWs0Ykw/6DnxKjLhWGQZT26uGdYIJNd36J50Pi1UhKuj4aWnzPpg4zErY6vCBEkgtbnx+D4YHwMgcSDcoZ9zgXQbsh5bP0l9QQstFFDBvbXvPbaWPekqtxAcdSzf0suxfAHq5UdvBBtI5vGJSQFMLalWQnLrhpJT7q/KKM2njemqheMM4xclEjGPrOjH6LFw+Cm4feqM3n9cSpHAW3QAbAsyQz5JuDKW2no6UtgECUnHU/yaZO2416QNowd00+zScpmYidvBg2rcpUO/EVA39VdCYsEnfGTW/EdotpdGkWobucmG8N72CdTYx/dXorsMsc931oxH5wK0awrwKuJrNJDIf1m//8S1w2W+aaCMh3QM97nroczQwlVhb77XAfJ0k9+SfATpC5ZMdkGYIX/8wjkA13+Yco4RhIQokg7VQ1h6</DRM>
+  <DRM>jIXZ/PczgXqP3YROFVGMVViJLU7DBZgSdxchsOlaz7xT9SUlKc9tpYI/8aVlpt/w4IM+EoFD5oB6tkt8tmxrJ5D1K8oe4jdxYVr8SHRlgZP9ORnBYFpKV8BcZTkqh3hYEdzlTgUmfcMBIwSIx+YI16ywhB6oDcb8zORM+NfzuNCyDclOuRUFrmy4B61niphqmhIDDY+2H0o32woaWTYoPdpqQQrai6XXNCoIQsuFNStF3IGxF/jjSyaq+JDntcRGJcCNSsli+OKz0Q04pjZassN1hKb82yhlQwWtc7puUWRkJjG184vhSODZGebnE7SVmElI/7m00EfFt3dWQi/JlmvZSkgYKBQk2L/J83s+0s7vV3DSXcN75iCGCkr747KDVzgYfnHqssRY/3x41jg2ehF+/HhDBckgJ8QUs3skzbfhk3JiaYmHRSrULpcnVNLaEDR/N77HHLto1fW4e/f5booKb3DdkYvrp6QzTsQLo23yMfTObufqyLDZT9a5HceRS0lm4ApCnYWPXgbWIAyjhguerGPm7qr1mIts6c0DZtn9Ocp+p+SvQ1elq3BCOtE43hj/h8EZG0xGbzhbGqJtl+YtKcUhNllatHiSZJRCuep3zkkrmHsDM2QLBNrNtR88v8GwSeI9vk3Mvh3KAOZqr9dboG3+wBL5OmtimLUa80+Cuf5fCAv+mZxfIbIzkAJXTybtOePyd3fpaieLoCOL4ZawjtmKbVNZ7PE+6ctGlGc7USSLSqgDzXmDgaV1reZs9rbVEDUznKTbbxCOpMKR/Q==</DRM>
   <IsCustomBinding>false</IsCustomBinding>
-  <InternalAppBIUrl></InternalAppBIUrl>
+  <InternalAppBIUrl>http://localhost:5005/bi</InternalAppBIUrl>
   <InternalAppReportUrl>
   </InternalAppReportUrl>
-  <InternalAppClientId>e82e11bd-1dee-4ff1-bc73-62f0a370db26</InternalAppClientId>
-  <InternalAppClientSecret>PlzNGT79BzHBihwBvuEDJgDfAob5EmeboTtfUuoOOnGQRUPoytxKyWBdSeDTveFmTYwG5nz2jYtbDXXnPNJP5g==</InternalAppClientSecret>
+  <InternalAppClientId>5908212b-db57-489d-bb01-f53f155cb184</InternalAppClientId>
+  <InternalAppClientSecret>TyEI473Dt/VZ9YdHz1XSRcGJvhQ5oe0tdY9yrZHF8EF/oGR01LnqiLUMwQyeHFVZk91s/T9VFWadZvhaZpAdAg==</InternalAppClientSecret>
   <PreviewFeatures>
     <Localization>false</Localization>
   </PreviewFeatures>

@@ -48,11 +48,19 @@
                 <i class="su su-manage-permission"></i>
             </a>
             {{if DirectoryType == @((int)DirectoryType.AzureAD)}}
-            <a href="javascript:void(0);" class="user-add-class" title="[[[You cannot add users to azure groups.]]]" data-toggle="tooltip" data-placement="left" data-groupid="{{:GroupId}}" data-directory-type="{{:DirectoryType}}">
+            <a href="javascript:void(0);" class="user-add-class" title="[[[You cannot add users to Azure AD groups.]]]" data-toggle="tooltip" data-placement="left" data-groupid="{{:GroupId}}" data-directory-type="{{:DirectoryType}}">
                 <i class="su su-user-add disabled-icon-color"></i>
             </a>
             {{else DirectoryType == @((int)DirectoryType.WindowsAD)}}
-            <a href="javascript:void(0);" class="user-add-class" title="[[[You cannot add users to windows groups.]]]" data-toggle="tooltip" data-placement="left" data-groupid="{{:GroupId}}" data-directory-type="{{:DirectoryType}}">
+            <a href="javascript:void(0);" class="user-add-class" title="[[[You cannot add users to Windows AD groups.]]]" data-toggle="tooltip" data-placement="left" data-groupid="{{:GroupId}}" data-directory-type="{{:DirectoryType}}">
+                <i class="su su-user-add disabled-icon-color"></i>
+            </a>
+            {{else DirectoryType == @((int)DirectoryType.OAuth2)}}
+            <a href="javascript:void(0);" class="user-add-class" title="[[[You cannot add users to OAuth groups.]]]" data-toggle="tooltip" data-placement="left" data-groupid="{{:GroupId}}" data-directory-type="{{:DirectoryType}}">
+                <i class="su su-user-add disabled-icon-color"></i>
+            </a>
+            {{else DirectoryType == @((int)DirectoryType.OpenIDConnect)}}
+            <a href="javascript:void(0);" class="user-add-class" title="[[[You cannot add users to OpenID groups.]]]" data-toggle="tooltip" data-placement="left" data-groupid="{{:GroupId}}" data-directory-type="{{:DirectoryType}}">
                 <i class="su su-user-add disabled-icon-color"></i>
             </a>
             {{else}}
