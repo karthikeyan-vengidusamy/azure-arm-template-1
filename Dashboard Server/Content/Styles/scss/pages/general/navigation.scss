@@ -343,6 +343,9 @@
                             .manage-site {
                                 height: 25px;
                                 line-height: 25px;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
                             }
 
                             .sub-menu-item {

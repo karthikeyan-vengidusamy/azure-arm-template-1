@@ -338,7 +338,7 @@ CREATE TABLE {database_name}.BOLDBI_ScheduleLog(
 	ExecutedDate datetime NOT NULL,
 	ModifiedDate datetime NOT NULL,
 	Message text NULL,
-	IsOnDemand tinyint NOT NULL DEFAULT (0),
+	IsOnDemand tinyint NOT NULL DEFAULT 0,
 	IsActive tinyint NOT NULL,
 	PRIMARY KEY (Id))
 ;

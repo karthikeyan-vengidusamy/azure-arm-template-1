@@ -39,7 +39,7 @@
     </script>
     <script type="text/x-jsrender" id="group-description-template">
         <span class="grid-content" title="{{:~renderDoubleQuotes(GroupDescription)}}" data-toggle="tooltip">
-            {{:GroupDescription}}
+            {{:~encodeString(GroupDescription)}}
         </span>
     </script>
     <script type="text/x-jsrender" id="actions-template">
@@ -168,6 +168,12 @@
             $.views.helpers({
                 renderDoubleQuotes: function (inputString) {
                     return inputString.replace(new RegExp("\"", 'g'), '&quot;');
+                }
+            });
+
+            $.views.helpers({
+                encodeString: function (inputString) {
+                    return inputString.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
                 }
             });
 

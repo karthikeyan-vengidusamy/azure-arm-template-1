@@ -40,7 +40,7 @@
 
     <div id="body-container">
         <div class="user-image-container">
-            @if (!string.IsNullOrEmpty(ViewBag.UserDetails.Picture))
+            @if (!string.IsNullOrWhiteSpace(ViewBag.UserDetails.Picture))
             {
                 <img class="user-image" rel="alternate" hreflang="en" href="@(EarlyUrlLocalizer.IgnoreLocalizationUrlPrefix)" src="@profilePicture" alt="[[[user]]]">
             }

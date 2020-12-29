@@ -128,7 +128,7 @@ $(document).ready(function () {
                 $('#port-number-dropdown').removeClass("show").addClass("hide");
                 $('#auth-type-dropdown').removeClass("hide").addClass("show");
                 $('#server-name-container').removeClass("hide").addClass("show");
-                $('#mysql-odbc-dropdown').removeClass("show").addClass("hide")
+                $('#mysql-odbc-dropdown').removeClass("show").addClass("hide");
 
                 var isWindowsAuth = $("#check-windows").val() === "windows";
                 $("#txt-login").attr("disabled", isWindowsAuth);
@@ -208,7 +208,7 @@ $(document).ready(function () {
         changeFooterPostion();
     });
 
-    $(document).on("click", ".proceed-button", function () {
+    $(document).on("click", ".file-storage-submit", function () {
         if (!$("#skip-intermediate-db").is(":visible")) {
             enableOrDisableDatabaseFormElements($(this).is(":checked"));
         }

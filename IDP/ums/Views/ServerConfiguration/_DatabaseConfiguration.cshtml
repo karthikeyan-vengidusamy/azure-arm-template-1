@@ -17,7 +17,7 @@
                             <option class="no-margin-dropdown-ul cursor-class" title="[[[Please install Npgsql client library to connect with PostgreSQL database.]]]" value="PostgreSQL" disabled>[[[Postgre SQL]]]</option>
                         }
 
-                        @if (HttpContext.Current.Request.QueryString.Count == 0 || HttpContext.Current.Request.QueryString["actionType"].ToString() != "create")
+                        @if (HttpContext.Current.Request.QueryString.Count != 0 && HttpContext.Current.Request.QueryString["actionType"].ToString() == "edit")
                         {
                             <option class="no-margin-dropdown-ul hide" value="MSSQLCE">[[[Embedded SQL CE]]]</option>
                         }
@@ -56,22 +56,22 @@
                 </div>
             </div>
 
-                <div id="mysql-odbc-dropdown" class="hide">
-                    <input id="dsn-count" value="@ViewBag.DsnList.Count" type="hidden">
-                    <div class="txt-holder center-align">
-                        <label class="field-label">[[[ODBC Connection]]]</label>
-                        <select id="mysql-odbc-dsn" name="mySqlDsn" class="selectpicker system-settings-startup-page-fields db-fields" data-width="100%" title="[[[Select MySQL ODBC DSN]]]">
-                            @if (ViewBag.DsnList != null)
+            <div id="mysql-odbc-dropdown" class="hide">
+                <input id="dsn-count" value="@ViewBag.DsnList.Count" type="hidden">
+                <div class="txt-holder center-align">
+                    <label class="field-label">[[[ODBC Connection]]]</label>
+                    <select id="mysql-odbc-dsn" name="mySqlDsn" class="selectpicker system-settings-startup-page-fields db-fields" data-width="100%" title="[[[Select MySQL ODBC DSN]]]">
+                        @if (ViewBag.DsnList != null)
+                        {
+                            for (var dsn = 0; dsn < ViewBag.DsnList.Count; dsn++)
                             {
-                                for (var dsn = 0; dsn < ViewBag.DsnList.Count; dsn++)
-                                {
-                                    <option id="dsn-count" class="no-margin-dropdown-ul" value="@ViewBag.DsnList[dsn]">@ViewBag.DsnList[dsn]</option>
-                                }
+                                <option id="dsn-count" class="no-margin-dropdown-ul" value="@ViewBag.DsnList[dsn]">@ViewBag.DsnList[dsn]</option>
                             }
-                        </select>
-                    </div>
-                    <span class="startup-validation validation-txt-errors"></span>
+                        }
+                    </select>
                 </div>
+                <span class="startup-validation validation-txt-errors"></span>
+            </div>
 
             <div class="txt-holder center-align">
                 <label class="field-label">[[[Username]]]</label>
@@ -117,7 +117,7 @@
                 <label for="secure-sql-connection" class="">[[[Enable SSL]]]</label>
             </div>
             <label id="no-need-datastore">[[[Data Store not available for Bold Reports]]]</label>
-            <div class="material-checkbox selfhosted skip-intermediate-db-container @GlobalAppSettings.IsAzureApplication()  ? hide : @string.Empty">
+            <div class="material-checkbox selfhosted skip-intermediate-db-container @(GlobalAppSettings.IsAzureApplication() ? "hide" : string.Empty)">
                 @Html.CheckBox("skip-intermediate-db", false)
                 <label for="skip-intermediate-db" class="">[[[I will configure the data store later.]]]</label>
             </div>

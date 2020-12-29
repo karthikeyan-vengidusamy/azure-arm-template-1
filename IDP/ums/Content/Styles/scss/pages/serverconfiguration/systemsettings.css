@@ -257,7 +257,7 @@ body {
           letter-spacing: 0.56px;
           margin-bottom: 8px; }
         body .system-startUp-settings-bg .startup-page-conatiner #system-settings-general .secure-sql {
-          margin-top: 24px; }
+          margin-top: 32px; }
           body .system-startUp-settings-bg .startup-page-conatiner #system-settings-general .secure-sql.material-checkbox label::before {
             top: 2px; }
           body .system-startUp-settings-bg .startup-page-conatiner #system-settings-general .secure-sql.material-checkbox label::after {

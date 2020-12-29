@@ -232,7 +232,10 @@
                 color: #333; }
             #menu-area #app-navigation #sub-nav ul li.sub-menu-action .sub-menu .manage-site, #menu-area #app-navigation #sub-nav ul li.profile-section .sub-menu .manage-site {
               height: 25px;
-              line-height: 25px; }
+              line-height: 25px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap; }
             #menu-area #app-navigation #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-item, #menu-area #app-navigation #sub-nav ul li.profile-section .sub-menu .sub-menu-item {
               height: 28px;
               text-align: left;
