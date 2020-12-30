@@ -239,7 +239,7 @@ var Designer = {
                 backgroundText: "Background",
                 imageText: "Image",
                 animationText: "Animation Settings",
-                seriesSettingsCategory: 'Series Settings',
+                seriesSettingsCategory: "Series Settings",
                 cardTitleCategory: "Title",
                 cardMeasureCategory: "Measure",
                 cardAppearanceCategory: "Appearance Settings",
@@ -329,8 +329,8 @@ var Designer = {
                         uploadFailed: "Upload failed.",
 
                     },
-                    widgetTitleAutoFontSize: 'Title Auto Font Size',
-                    widgetSubTitleAutoFontSize: 'Subtitle Auto Font Size'
+                    widgetTitleAutoFontSize: "Title Auto Font Size",
+                    widgetSubTitleAutoFontSize: "Subtitle Auto Font Size"
                 },
                 containerActions: {
                     showMaximizeText: "Allow Maximize View",
@@ -347,6 +347,7 @@ var Designer = {
                     allowSortingText: "Allow Sorting",
                     allowResizeToFit: "Fit To Content",
                     allowTextWrap: "Text Wrap",
+                    valuesInRow: "Show Values In Row",
                     horizontalGridLine: "Horizontal Grid Lines",
                     verticalGridLine: "Vertical Grid Lines",
                     rowHeight: "Row Height",
@@ -373,7 +374,6 @@ var Designer = {
                     range: "Range",
                     limitDates: "Limit Dates",
                     highlightAvailableDates: "Highlight Available Dates",
-                    showLatestDate: "Show Latest Date",
                     mode: "Mode",
                     imageSource: "Image Source",
                     AxisLabelColor: "Axis Label Color",                    
@@ -419,10 +419,10 @@ var Designer = {
                     padding: "Padding"
                 },
                 fontSettings: {
-                    categoryDisplayName: 'Font Settings',
-                    dashboardTitle: 'Dashboard Title',
-                    widgetTitle: 'Widget Title',
-                    widgetSubTitle: 'Widget Subtitle'
+                    categoryDisplayName: "Font Settings",
+                    dashboardTitle: "Dashboard Title",
+                    widgetTitle: "Widget Title",
+                    widgetSubTitle: "Widget Subtitle"
                 },
                 forecastSettings: {
                     enable: "Enable",
@@ -518,14 +518,14 @@ var Designer = {
                     animationDuration: "Animation Duration",
                 },
                 appearanceSettings: {
-                    horizontalAlignment: 'Horizontal Alignment',
-                    autoFontSize: 'Auto Font Size',
-                    scalingFactor: 'Scaling Factor',
+                    horizontalAlignment: "Horizontal Alignment",
+                    autoFontSize: "Auto Font Size",
+                    scalingFactor: "Scaling Factor",
                 },
                 seriesSettings: {
-                    fixedRowsAndColumnsText: 'Fixed Rows and Columns',
-                    rowCountText: 'Row Count',
-                    columnCountText: 'Column Count'
+                    fixedRowsAndColumnsText: "Fixed Rows and Columns",
+                    rowCountText: "Row Count",
+                    columnCountText: "Column Count"
                 },
                 cardTitleSettings: {
                     showTitle: "Show Title",
@@ -725,15 +725,15 @@ var Designer = {
                 userName: "User name",
                 passWord: "Password",
                 userNameOptional: "User Name (Optional)",
-                regionText: 'Region Endpoint',
-                awsAccessKeyText: 'AwsAccessKeyID',
-                secretKeyText: 'AwsSecretKey',
-                outputLocationText: 'S3 Output Location',
-                specifyAccessKey: 'AWSAccessKeyId cannot be empty.',
-                specifySecretKey: 'Secret Key cannot be empty.',
-                specifyOutputLocation: 'Output location cannot be empty.',
-                athenaOutputLocationTooltip: 'Example: S3://foldername/',
-                specifyRegion: 'Region cannot be empty.',
+                regionText: "Region Endpoint",
+                awsAccessKeyText: "AwsAccessKeyID",
+                secretKeyText: "AwsSecretKey",
+                outputLocationText: "S3 Output Location",
+                specifyAccessKey: "AWSAccessKeyId cannot be empty.",
+                specifySecretKey: "Secret Key cannot be empty.",
+                specifyOutputLocation: "Output location cannot be empty.",
+                athenaOutputLocationTooltip: "Example: S3://foldername/",
+                specifyRegion: "Region cannot be empty.",
                 advancedSettings: "Additional connection parameters (Optional)",
                 dynamicConnectionString: "Dynamic Connection String",
                 dynamicConnectionStringTitle: "Dynamic Connection String Configuration",
@@ -745,11 +745,9 @@ var Designer = {
                 fileSelectionInfo: "Please select a file",
                 x509authenticationInfo: "x.509 certificate authentication requires a secure TLS/SSL connection.",
                 fileUploadCompleted: "Upload completed.",
-                extractModeMessage: "<b>Note:</b> Initially it will extract {0} records. " +
-                    "Remaining records will be extracted based on configured refresh settings.",
+                extractModeMessage: "<b>Note:</b> Initially it will extract {0} records. Remaining records will be extracted based on configured refresh settings.",
                 extractModeMessageSqlite: "<b>Note:</b> It will extract {0} records only.",
-                liveWebModeMessage: "<b>Note:</b> For optimum performance in live mode Web API, records restricted to 5000 or less. " +
-                    "Use extract mode for more than 5000 records.",
+                liveWebModeMessage: "<b>Note:</b> For optimum performance in live mode Web API, records restricted to 5000 or less. Use extract mode for more than 5000 records.",
                 useAsWindowCredential: "Use as Window Credential",
                 impersonateAuthenticatedUserAfterConnecting: "Impersonate the authenticated user after connecting.",
                 promptForCredentials: "Prompt for credentials",
@@ -824,6 +822,7 @@ var Designer = {
                     presto: "Presto",
                     amazonAurora: "Amazon Aurora",
                     amazonAthena: "Amazon Athena",
+                    elasticsearch: "Elastic Search",
                     googleCloud: "Google Cloud SQL",
                     amazonAuroraMySQL: "AmazonAuroraMySQL",
                     amazonAuroraPostgreSQL: "AmazonAuroraPostgreSQL",
@@ -968,401 +967,401 @@ var Designer = {
                         name: "Chartbeat",
                         templates: {
                             projects: {
-                                name: "",
-                                desc: ""
+                                name: " ",
+                                desc: " "
                             }
                         }
                     },
                     flurry: {
                         name: "Flurry",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     freshdesk: {
                         name: "Freshdesk",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     fusebill: {
                         name: "Fusebill",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     goSquared: {
                         name: "GoSquared",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     harvest: {
                         name: "Harvest",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     helpScout: {
                         name: "Help Scout",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     insightly: {
                         name: "Insightly",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     intervals: {
                         name: "Intervals",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     keenIo: {
                         name: "Keen",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     kissMetrics: {
                         name: "Kissmetrics",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     wistia: {
                         name: "Wistia",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     gitlab: {
                         name: "GitLab",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     liveAgent: {
                         name: "LiveAgent",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     nicereply: {
                         name: "Nicereply",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     pipelineDeals: {
                         name: "PipelineDeals",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     pipedrive: {
                         name: "Pipedrive",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     prosperWorks: {
                         //  "ProsperWorks" is re-branded as "Copper" post release 2.1.5
                         name: "Copper",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     sendGrid: {
                         name: "SendGrid",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     newRelic: {
                         name: "New Relic",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     mixpanel: {
                         name: "Mixpanel",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     stripe: {
                         name: "Stripe",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     slack: {
                         name: "Slack",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     smartSheet: {
                         name: "Smartsheet",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     zohocrm: {
                         name: "Zoho CRM",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     zohoinvoice: {
                         name: "Zoho Invoice",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     zendesksunshine: {
                         name: "Zendesk Sunshine",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     kaizala: {
                         name: "Microsoft Kaizala",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     wordPress: {
                         name: "WordPress",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     fortytwomatters: {
                         name: "42matters",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     odata: {
                         name: "OData",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     zendesk: {
                         name: "Zendesk Support",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     surveygizmo: {
                         name: "SurveyGizmo",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     mailchimp: {
                         name: "Mailchimp",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     optimizely: {
                         name: "Optimizely",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     azureblob: {
                         name: "Azure Blob",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     basecrm: {
                         //  "BaseCRM" is re-branded as "Zendesk Sell" post release 2.1.5
                         name: "Zendesk Sell",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     sendible: {
                         name: "Sendible",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     chargebee: {
                         name: "Chargebee",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     github: {
                         name: "GitHub",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     activeCampaign: {
                         name: "ActiveCampaign",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     bitly: {
                         name: "Bitly",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     clubReady: {
                         name: "ClubReady",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     appFolio: {
                         name: "AppFolio",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     toggl: {
                         name: "Toggl Track",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     basecamp3: {
                         name: "Basecamp3",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     lighthouse: {
                         name: "Lighthouse",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     freshsales: {
                         name: "Freshsales",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     freshservice: {
                         name: "Freshservice",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     servicenow: {
                         name: "ServiceNow",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     sparkpost: {
                         name: "SparkPost",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     seomonitor: {
                         name: "SEOmonitor",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     recurly: {
                         name: "Recurly",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     rssfeeds: {
                         name: "RSS Feeds",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     appAnnie: {
                         name: "App Annie",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     azuredevops: {
                         name: "Azure DevOps",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     redcap: {
                         name: "REDCap",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     azureSearch: {
                         name: "Azure Search",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     prometheus: {
                         name: "Prometheus",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     proofhub: {
                         name: "ProofHub",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     shopify: {
                         name: "Shopify",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     amazonMWS: {
                         name: "Amazon MWS",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     commvault: {
                         name: "Commvault",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     trello: {
                         name: "Trello",
                         templates: [
-                            { projects: { name: "", desc: "" } }
+                            { projects: { name: " ", desc: " " } }
                         ]
                     },
                     surveymonkey: {
                         name: "SurveyMonkey",
                         templates: [
-                            { projects: { name: '', desc: '' } }
+                            { projects: { name: ' ', desc: ' ' } }
                         ]
                     },
                     lessonly: {
                         name: "Lessonly",
                         templates: [
-                            { projects: { name: '', desc: '' } }
+                            { projects: { name: ' ', desc: ' ' } }
                         ]
                     }
                 },
@@ -1419,7 +1418,6 @@ var Designer = {
                     applicationInsights: "Application Insights",
                     markupTrace: "Markup Trace",
                     xero: "Xero",
-                    zoom:"Zoom",
                 },
 
                 errorMessageForTotalExpressionContainsRowExpression: "Total expression must not contains any ROW expression.",
@@ -1745,7 +1743,8 @@ var Designer = {
                 largeFileSizeMessage: "The selected file size is too large ",
                 largeFileSizeAlert: "MB. It will take some time to import the data. Do you want to continue?",
                 removeTableFromMergedDsMessage: "Removing this table will affect the data result. Do you want to continue?",
-                InfluxdbJoinMessage: "InfluxDB does not support join operation. Empty join window will appear."
+                InfluxdbJoinMessage: "InfluxDB does not support join operation. Empty join window will appear.",
+                ElasticsearchJoinMessage: "Elasticsearch does not support join operation. Empty join window will appear."
             },
             parameterMessages: {
                 nameHasSpecialChar: "Name should not contain spaces and special characters",
@@ -2454,8 +2453,8 @@ var Designer = {
                 emptyClubReadyChainIdValidation: "ChainId should not be empty",
                 quickBooksRealmIdDisplayText: "Realm ID",
                 emptyQuickBooksRealmIdValidation: "Realm ID should not be empty",
-                emptySOQLQueryValidation: 'SOQL should not be empty',
-                salesforceDefaultHostName: 'yourinstance.salesforce.com',
+                emptySOQLQueryValidation: "SOQL should not be empty",
+                salesforceDefaultHostName: "yourinstance.salesforce.com",
                 emptyHostNameValidation: "HostName/Domain should not be empty.",
                 errorHostNameValidation: "Error occurred while fetching the HostName",
                 incorrectHostName: "Please enter valid Hostname/Reconnect datasource",
@@ -3970,6 +3969,9 @@ var Designer = {
                     powerDesc: "Returns the value of the given expression (expression1) to the specified power (expression2).",
                     powerEx: "POWER(numeric_expression, numeric_expression)",
 
+                    percentageDesc: "Returns the percentage value for each row from the grand total of the given column.",
+                    percentageEx: "TOTALPERCENTAGE(numeric_expression)",
+
                     radDesc: "Returns the angle in radians for the one specified in degrees in the given numeric expression.",
                     radEx: "RADIANS(numeric_expression)",
 
@@ -3991,8 +3993,7 @@ var Designer = {
                     ifDesc: "Returns either true part or false part, depending upon the evaluation of the expression.",
                     ifEx: "IF(expression, true_part, false_part)",
 
-                    ifNullDesc: "If the expression is numeric/string/date, returns the first expression."
-                        + " If the first expression is NULL, returns the second expression.",
+                    ifNullDesc: "If the expression is numeric/string/date, returns the first expression. If the first expression is NULL, returns the second expression.",
                     ifNullEx: "IFNULL(expression1,expression2)",
 
                     isNotNullDesc: "If the numeric/ string / date_expression is NULL, returns a string representing false, otherwise represents true.",
@@ -4482,7 +4483,6 @@ var Designer = {
                     hiddenColumnName: "Hidden Column",
                     kpiColumnName: "KPIColumn",
                     filterColumnTitle: "Filters",
-                    filterColumn: "FilterColumn",
                 },
                 menuItems: {
                     weightedScore: "Weighted Score...",
@@ -4521,7 +4521,7 @@ var Designer = {
                     nulldata: "(Null)",
                     measures: "measures",
                     rename: "Rename",
-                    first: "First",
+					first: "First",
                     last: "Last"
                 },
                 numberFilterOption: {
@@ -4865,172 +4865,6 @@ var Designer = {
                 allTrackingCategories: "All Tracking Categories",
                 users: "Users",
                 allUsers: "All Users",
-            },
-            zoomDataSource: {
-                users: "Users",
-                contacts: "Contacts",
-                allAccounts: "All Accounts",
-                showAccount: "Show Account",
-                accountSettings: "Account Settings",
-                accountManagedDomains: "Account Managed Domains",
-                accountTrustedDomains: "Account Trusted Domains",
-                accountLockedSettings: "Account Locked Settings",
-                accountBilling: "Account Billing",
-                accountPlans: "Account Plans",
-                accountPlanUsage: "Account Plan Usage",
-                userRecordings: "User Recordings",
-                meetingRecordings: "Meeting Recordings",
-                meetingRecordingSettings: "Meeting Recording Settings",
-                meetingRecordingRegistrants: "Meeting Recording Registrants",
-                meetingRegistrationQuestions: "Meeting Registration Questions",
-                accountRecordings: "Account Recordings",
-                showMeeting: "Show Meeting",
-                meetingParticipants: "Meeting Participants",
-                showMeetingParticipantQOS: "Show Meeting Participant QOS",
-                allMeetingParticipantsQOS: "All Meeting Participants QOS",
-                meetingParticipantsSharing: "Meeting Participants Sharing",
-                allWebinars: "All Webinars",
-                showWebinar: "Show Webinar",
-                webinarParticipants: "Webinar Participants",
-                webinarParticipantQOS: "Webinar Participant QOS",
-                allWebinarParticipantQOS: "All Webinar Participant QOS",
-                webinarParticipantsSharing: "Webinar Participants Sharing",
-                showZoomRooms: "Show Zoom Rooms",
-                viewCRCPortUsage: "View CRC Port Usage",
-                viewIMMetrics: "View IM Metrics",
-                clientFeedback: "Client Feedback",
-                showZoomRoomIssues: "Show Zoom Room Issues",
-                showZoomRoomsWithIssues: "Show Zoom Rooms With Issues",
-                allZoomRoomsIssues: "All Zoom Rooms Issues",
-                showFeedback: "Show Feedback",
-                clientSatisfaction: "Client Satisfaction",
-                allH323SipDevices: "All H323 SIP Devices",
-                allGroups: "All Groups",
-                viewGroup: "View Group",
-                groupMembers: "Group Members",
-                groupSettings: "Group Settings",
-                allIMDirectoryGroups: "All IM Directory Groups",
-                retrieveIMDirectoryGroup: "Retrieve IM Directory Group",
-                iMGroupMembers: "IM Group Members",
-                allMeetings: "All Meetings",
-                userMeeting: "User Meeting",
-                meetingRegistrants: "Meeting Registrants",
-                showPastMeeting: "Show Past Meeting",
-                showPastMeetingParticipants: "showPastMeetingParticipants",
-                pastMeetingInstances: "Past Meeting Instances",
-                meetingPolls: "Meeting Polls",
-                reportMeetingPolls: "Report Meeting Polls",
-                showMeetingPoll: "Show Meeting Poll",
-                meetingQuestions: "Meeting Questions",
-                meetingInvitation: "Meeting Invitation",
-                pastMeetingPolls: "Past Meeting Polls",
-                pastMeetingFiles: "Past Meeting Files",
-                usersPAC: "Users PAC",
-                allPhoneNumbers: "All Phone Numbers",
-                userProfile: "User Profile",
-                userPhoneCallLogs: "User Phone Call Logs",
-                userPhoneRecordings: "User Phone Call Logs",
-                userPhoneVoicemails: "User Phone Voice Mails",
-                allPhoneCallLogs: "All Phone Call Logs",
-                showPhoneNumber: "Show Phone Number",
-                callingPlans: "Calling Plans",
-                phoneUsers: "Phone Users",
-                blockedLists: "Blocked Lists",
-                showBlockedDetail: "Show Blocked Detail",
-                allCallQueues: "All Call Queues",
-                showCallQueue: "Show Call Queue",
-                callQueueRecordings: "Call Queue Recordings",
-                allPhoneDevices: "All Phone Devices",
-                viewPhoneDevice: "View Phone Device",
-                viewSharedLineGroup: "View Shared Line Group",
-                allPhoneSites: "All Phone Sites",
-                viewPhoneSite: "View Phone Site",
-                allCommonAreaPhones: "All Common Area Phones",
-                viewCommonAreaPhone: "View Common Area Phone",
-                viewDailyUsageReport: "View Daily Usage Report",
-                viewHostReports: "View Host Reports",
-                userMeetingReports: "User Meeting Reports",
-                viewMeetingDetailReport: "View Meeting Detail Report",
-                meetingParticipantReports: "Meeting Participant Reports",
-                meetingPolls: "Meeting Polls",
-                webinarReports: "Webinar Reports",
-                webinarParticipantReports: "Webinar Participant Reports",
-                webinarPollsReports: "Webinar Polls Reports",
-                webinarQAReport: "Webinar QA Report",
-                telephoneReports: "Telephone Reports",
-                cloudRecordingReport: "Cloud Recording Report",
-                operationLogs: "Operation Logs",
-                activityReport: "Activity Report",
-                allRoles: "All Roles",
-                allMembersRole: "All Members Role",
-                viewRole: "View Role",
-                allRooms: "All Rooms",
-                viewRoom: "View Room",
-                roomsSettings: "Rooms Settings",
-                roomsDevices: "Rooms Devices",
-                roomsAccountProfile: "Rooms Account Profile",
-                roomsAccountSettings: "Rooms Account Settings",
-                roomsLocations: "Rooms Locations",
-                showRoomLocation: "Show Room Location",
-                locationSettings: "Location Settings",
-                locationStructure: "Location Structure",
-                allSipPhones: "All SIP Phones",
-                allTrackingFields: "All Tracking Fields",
-                viewTrackingField: "View Tracking Field",
-                viewTSP: "View TSP",
-                usersTSP: "Users TSP",
-                viewUserTsp: "View User Tsp",
-                allUsers: "All Users",
-                viewUser: "View User",
-                userAssistants: "User Assistants",
-                userSchedulers: "User Schedulers",
-                userSettings: "User Settings",
-                userPermissions: "UserPermissions",
-                userToken: "User Token",
-                userEmail: "UserEmail",
-                userPMRoomName: "User PM Room Name",
-                usersWebinars: "Users Webinars",
-                viewWebinar: "View Webinar",
-                panelists: "Panelists",
-                webinarRegistrants: "Webinar Registrants",
-                webinarInstances: "Webinar Instances",
-                webinarPolls: "Webinar Polls",
-                viewWebinarPoll: "View Webinar Poll",
-                webinarQuestions: "Webinar Questions",
-                showWebinarRegistrant: "Show Webinar Registrant",
-                pastWebinarAbsentees: "Past Webinar Absentees",
-                webinarTrackingSources: "Webinar Tracking Sources",
-                pastWebinarPolls: "Past Webinar Polls",
-                pastWebinarQA: "Past Webinar QA",
-                pastWebinarFiles: "Past Webinar Files",
-                sIPTrunkNumbers: "SIP Trunk Numbers",
-                accounts: "Accounts",
-                billings: "Billings",
-                chatChannels: "Chat Channels",
-                chatMessages: "Chat Messages",
-                cloudRecordings: "Cloud Recordings",
-                dashboards: "Dashboards",
-                devices: "Devices",
-                groups: "Groups",
-                iMGroups: "IM Groups",
-                meetings: "Metings",
-                pACAccounts: "Pac Accounts",
-                phone: "Phone",
-                phoneBlockedList: "Phone Blocked List",
-                phoneQueue: "Phone Call Queue",
-                phoneDevices: "Phone Devices",
-                phoneSharedLineGroups: "Phone Shared Line Groups",
-                phoneSites: "Phone Sites",
-                reports: "Reports",
-                roles: "Roles",
-                rooms: "Rooms",
-                roomAccounts: "Room Accounts",
-                roomLocations: "Room Locations",
-                sipPhone: "Sip Phone",
-                trackingField: "Tracking Field",
-                tSPInformation: "TSP Information",
-                webinar: "Webinar",
-                sIPConnectedAudio: "SIP Connected Audio",
             },
             lessonlyDataSource: {
                 users: "Users",
