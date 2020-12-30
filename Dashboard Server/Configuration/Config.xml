@@ -4,12 +4,12 @@
   <WelcomeNoteText>Welcome to Bold BI On-Premise Dashboards</WelcomeNoteText>
   <CopyrightInformation>Copyright &amp;copy; 2001 - $$CurrentYear$$ Syncfusion Inc.   |   All Rights Reserved</CopyrightInformation>
   <IsShowPoweredBySyncfusion>true</IsShowPoweredBySyncfusion>
-  <DRM>AHNWrDNsYm0ycjG+MoAwkDKHEvj05Isz5ti8UsucSelll7JDwsVntT50gYPOWfy5fK+CYC95eS9cYmN38rWAJNi+mHm0rMX7Af6Og4QcMc7wqf5irUOUVlszyGLyYe4OgRrdSLNMwykXn3dqUoJFQIKvL9KU2u1w+tOMEDU9viFSGzGKR2Y1Orxw9+CnLJ+M9V3HJqMJczLOPqvgSofMZZbA4qoycWwompMWogg5bhYKLCHwnB7UdUaQz9Mya4zLlJs6G7UoBncG5BCBPLA3BWs0Ykw/6DnxKjLhWGQZT26uGdYIJNd36J50Pi1UhKuj4aWnzPpg4zErY6vCBEkgtbnx+D4YHwMgcSDcoZ9zgXQbsh5bP0l9QQstFFDBvbXvPbaWPekqtxAcdSzf0suxfAHq5UdvBBtI5vGJSQFMLalWQnLrhpJT7q/KKM2njemqheMM4xclEjGPrOjH6LFw+Cm4feqM3n9cSpHAW3QAbAsyQz5JuDKW2no6UtgECUnHU/yaZO2416QNowd00+zScpmYidvBg2rcpUO/EVA39VdCYsEnfGTW/EdotpdGkWobucmG8N72CdTYx/dXorsMsc931oxH5wK0awrwKuJrNJDIf1m//8S1w2W+aaCMh3QM97nroczQwlVhb77XAfJ0k9+SfATpC5ZMdkGYIX/8wjkA13+Yco4RhIQokg7VQ1h6</DRM>
+  <DRM>FglO2vlqGd5JuwPiu3mR1Faw5Xsf8KirQdZ73bKMQczvIhrTpMmkUedL8UNQUoK3Eb5Q6xwKVObQg26a/RP+/8OnkOjZ6KeE4pyKzGZSpQF6MVF/mtUN2kwT+fU34i74yLnEkBeZWJswLzpPotD6aQIB48LobnpBedQQJsHpb+SsYBFq219VJGCFueDmv5TXMWx86IgmtlMa9rsyn+w2O3eKI0A8Pf+T9RWtPdb5sW5UDGQBvkWH/RXw514Cf6OauIm5LQsFks3Kc3WOAxqgVkbgHLKUxsV0D2Z5APFxFqCM8ujU6kpw+7Pxm83eS7cNGOcCwwyFVMYvLzICAVX39dpO4vTY0lufgSJmVW3FgjiVfKu73SFMIAzqG95FbfCkPAcOzlGyi7rOqnOonPQCbE2mK/Doij40nYpVFvdWKgWA3gX1qeVxo6dYKI6KXkdWjkw4CV9feLoHZc7YR4jMnk71WMQgDxE8RSQDbNLTjz0ijpjcJGJM8/YcspAdwDReMv5gB4d8LeeVANTYa6/R9M8uLlH8KJrwchiYkUD9hD4q/58EOnKH1TxDdO41dMffT0VccH5HbIdOSR/zi16qu1A5FghZ0DXorIRYWiEWC3HZ1MJGtYrmsGA3b7RGWVj+GlIYXXUoW8iuIv4PtOgtB1rDw3ssClS6hpnYa+HzJyHNxv9E7LPl9zzBucmukGB0If9eKVoKXaFUg4zI7Qd56TN4dWqH8p30jNOQjsPIL3+/zojW+XbWUWSlS528YfkSuu/yHTX3q8lbyOu5UJN22g==</DRM>
   <IsCustomBinding>false</IsCustomBinding>
-  <InternalAppDataServiceUrl>http://localhost:5005/bi/designer</InternalAppDataServiceUrl>
-  <InternalAppIdpUrl>http://localhost:5005/</InternalAppIdpUrl>
-  <InternalAppClientId>e82e11bd-1dee-4ff1-bc73-62f0a370db26</InternalAppClientId>
-  <InternalAppClientSecret>PlzNGT79BzHBihwBvuEDJgDfAob5EmeboTtfUuoOOnGQRUPoytxKyWBdSeDTveFmTYwG5nz2jYtbDXXnPNJP5g==</InternalAppClientSecret>
+  <InternalAppDataServiceUrl>http://localhost:5006/bi/designer</InternalAppDataServiceUrl>
+  <InternalAppIdpUrl>http://localhost:5006/</InternalAppIdpUrl>
+  <InternalAppClientId>3506f46f-feca-45c9-9c76-ff480338cfac</InternalAppClientId>
+  <InternalAppClientSecret>+9DDF5WNIOohQdujXfg3cfxs/rLBYGeSegFK/YU2whx0Rq9l0xzABWztD6KQP0V4qp4e1lu8FjNGi8fWNKJVwQ==</InternalAppClientSecret>
   <IdaTenant>
   </IdaTenant>
   <IdaAudience>

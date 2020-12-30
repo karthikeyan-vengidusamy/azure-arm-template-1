@@ -28,7 +28,11 @@
         <span class="grid-content" title="{{:Name}}" data-toggle="tooltip">{{:Name}}</span>
     </script>
     <script type="text/x-jsrender" id="site-attribute-value-template">
-        <span class="grid-content" title="{{:Value}}" data-toggle="tooltip">{{:Value}}</span>
+        {{if CanEncrypt}}
+            <span class="grid-content" title="*****" data-toggle="tooltip">*****</span>
+        {{else}}
+            <span class="grid-content" title="{{:Value}}" data-toggle="tooltip">{{:Value}}</span>
+        {{/if}}
     </script>
 
     @Styles.Render("~/bundles/styles/custom-attribute")

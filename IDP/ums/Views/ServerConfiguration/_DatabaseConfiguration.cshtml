@@ -1,4 +1,9 @@
-﻿<div class="system-settings-page-container col-lg-5 col-md-5 col-sm-5 col-xs-5" id="system-settings-db-selection-container">
+﻿@using System.Web.Configuration;
+@{
+    var isAzureApplication = string.IsNullOrEmpty(WebConfigurationManager.AppSettings["IsAzureApplication"]) ? false : Convert.ToBoolean(WebConfigurationManager.AppSettings["IsAzureApplication"]);
+}
+
+<div class="system-settings-page-container col-lg-5 col-md-5 col-sm-5 col-xs-5" id="system-settings-db-selection-container">
     <div class="system-settings-db-selection-field">
         <input type="hidden" name="Ums_table_prefix" id="tenant-table-prefix" value="@DbTablePrefixes.DashboardServer" />
 
@@ -22,7 +27,10 @@
                             <option class="no-margin-dropdown-ul hide" value="MSSQLCE">[[[Embedded SQL CE]]]</option>
                         }
 
-                        <option class="no-margin-dropdown-ul my-sql-dropdown" value="MySQL">[[[MySQL]]]</option>
+                        @if (!isAzureApplication)
+                        {
+                            <option class="no-margin-dropdown-ul my-sql-dropdown" value="MySQL">[[[MySQL]]]</option>
+                        }
                     </select>
                 </div>
             </div>

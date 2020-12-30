@@ -5,7 +5,7 @@
   <IsEnablePoweredBySyncfusion>true</IsEnablePoweredBySyncfusion>
   <IsShowPoweredBySyncfusion>true</IsShowPoweredBySyncfusion>
   <OrganizationName>Bold ID</OrganizationName>
-  <InstallationFolder>TenantManagement</InstallationFolder>
+  <InstallationFolder>IDP</InstallationFolder>
   <SqlConfiguration>
   </SqlConfiguration>
   <StorageType>0</StorageType>

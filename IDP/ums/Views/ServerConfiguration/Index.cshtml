@@ -132,7 +132,10 @@
                                             <option class="no-margin-dropdown-ul" title="[[[Please install Npgsql client library to connect with PostgreSQL database.]]]" value="PostgreSQL" disabled>[[[Postgre SQL]]]</option>
                                         }
 
-                                        <option class="no-margin-dropdown-ul" value="MySQL">[[[MySQL]]]</option>
+                                        @if (!ViewBag.IsAzureApplication)
+                                        {
+                                            <option class="no-margin-dropdown-ul" value="MySQL">[[[MySQL]]]</option>
+                                        }
                                         <option class="no-margin-dropdown-ul hide" value="MSSQLCE">[[[Embedded SQL CE]]]</option>
                                     </select>
                                 </div>

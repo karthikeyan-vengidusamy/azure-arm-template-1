@@ -342,17 +342,16 @@ $(document).ready(function () {
                         saveDatabaseValuesTemporarly();
                         nextToStoragePage();
                     }
-                }
 
-                if ($("#skip-intermediate-db").is(":visible")) {
-                    enableOrDisableDatabaseFormElements($("#skip-intermediate-db").is(":checked"));
-                }
-                else if (!$("#skip-intermediate-db").is(":visible")) {
-                    enableOrDisableDatabaseFormElements(false);
-                }
+                    if ($("#skip-intermediate-db").is(":visible")) {
+                        enableOrDisableDatabaseFormElements($("#skip-intermediate-db").is(":checked"));
+                    }
+                    else if (!$("#skip-intermediate-db").is(":visible")) {
+                        enableOrDisableDatabaseFormElements(false);
+                    }
+                }              
 
                 $('#details-next').removeAttr("disabled");
-
             }
             else {
                 $(this).removeAttr("disabled");

@@ -1914,6 +1914,22 @@ function connectDatabase(element, actionType) {
                                     result = dataResult;
                                 }
                             }
+                            else {
+                                if (element == null || element == "" || element == undefined) {
+                                    hideWaitingPopup($(".startup-page-container-body"));
+                                    $("#db-config-submit, #ds-db-config-submit").show();
+                                    $("#db-config-submit, #ds-db-config-submit").prop("disabled", false);
+                                } else {
+                                    hideWaitingPopup(element);
+                                    $('#details-next').removeAttr("disabled");
+                                }
+                                $("#db_config_generate").hide();
+                                $("#db_loader").hide();
+                                if (dataResult.Data != undefined) {
+                                    errorContent = dataResult.Data.value;
+                                }
+                                $(".database-name .database-error").html(databaseValidationMessage).show();
+                            }
                         }
                     });
                 }

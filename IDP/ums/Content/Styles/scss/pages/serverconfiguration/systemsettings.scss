@@ -315,7 +315,7 @@ body {
                         font-weight: 600;
                     }
 
-                    .system-settings-db-selection-field {
+                    .system-settings-db-selection-field, .system-settings-tenant-configuration-field {
                         @extend %form-field-container;
 
                         .txt-holder {
@@ -485,7 +485,7 @@ body {
             .startup-page-conatiner {
                 #system-settings-general {
                     #system-settings-db-selection-container, #system-settings-tenant-container {
-                        .system-settings-db-selection-field {
+                        .system-settings-db-selection-field, .system-settings-tenant-configuration-field {
                             width: 450px !important;
                         }
                     }

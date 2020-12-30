@@ -4483,7 +4483,6 @@ var Designer = {
                     hiddenColumnName: "[[[Hidden Column]]]",
                     kpiColumnName: "[[[KPIColumn]]]",
                     filterColumnTitle: "[[[Filters]]]",
-                    filterColumn: "[[[FilterColumn]]]",
                 },
                 menuItems: {
                     weightedScore: "[[[Weighted Score...]]]",
